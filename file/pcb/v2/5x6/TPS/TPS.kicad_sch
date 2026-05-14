@@ -4210,12 +4210,6 @@
 		(uuid "d015eecc-475b-4125-a8f1-5d1295879721")
 	)
 	(junction
-		(at 242.57 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d07f9d2e-e1eb-4c30-9ccd-807387e59dd6")
-	)
-	(junction
 		(at 67.31 42.545)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4370,6 +4364,10 @@
 		(uuid "04dd5b80-ed6f-43bc-85ef-2a869ad9b9aa")
 	)
 	(no_connect
+		(at 82.55 171.45)
+		(uuid "0ac6393e-1ce5-4e65-97db-1705da9a8c14")
+	)
+	(no_connect
 		(at 82.55 146.05)
 		(uuid "14cb9bfc-fc8a-4b43-9c5a-c386ed6e0063")
 	)
@@ -4402,6 +4400,10 @@
 		(uuid "72b9ef3a-53c9-4b0b-9105-16031cf3dd1a")
 	)
 	(no_connect
+		(at 170.18 33.02)
+		(uuid "7a1d2be4-2b96-4013-a3cb-d868c16ba210")
+	)
+	(no_connect
 		(at 82.55 184.15)
 		(uuid "83d50c69-bcbd-411c-b213-6a1880f63cd7")
 	)
@@ -4420,6 +4422,10 @@
 	(no_connect
 		(at 41.91 184.15)
 		(uuid "989f2d10-9e76-4ca7-8696-34eb9152e0bc")
+	)
+	(no_connect
+		(at 41.91 171.45)
+		(uuid "a342b1c8-2b7f-459e-83ac-ced567bc8d92")
 	)
 	(no_connect
 		(at 41.91 146.05)
@@ -4444,6 +4450,10 @@
 	(no_connect
 		(at 82.55 186.69)
 		(uuid "f3e27176-ba27-46e4-ab1a-7365768b73db")
+	)
+	(no_connect
+		(at 129.54 33.02)
+		(uuid "f5b53dc1-9758-4793-b304-2747b871f64f")
 	)
 	(wire
 		(pts
@@ -4637,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 77.47) (xy 77.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ddf274-3a42-4836-8c7a-ab2259fb0e11")
+	)
+	(wire
+		(pts
 			(xy 52.07 84.455) (xy 64.77 84.455)
 		)
 		(stroke
@@ -4704,6 +4724,16 @@
 			(type default)
 		)
 		(uuid "203087aa-cb51-4151-9066-dbbee97cfd81")
+	)
+	(wire
+		(pts
+			(xy 228.6 99.06) (xy 234.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c21d52-4a5e-43f7-949f-164b75f577ca")
 	)
 	(wire
 		(pts
@@ -4984,16 +5014,6 @@
 			(type default)
 		)
 		(uuid "4955378a-9e8d-46b7-b03f-9136d61019b4")
-	)
-	(wire
-		(pts
-			(xy 228.6 99.06) (xy 242.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7af212-58c1-4e51-8115-2a5c1b42350b")
 	)
 	(wire
 		(pts
@@ -5307,7 +5327,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 81.28) (xy 259.08 81.28)
+			(xy 228.6 81.28) (xy 234.95 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5634,6 +5654,16 @@
 			(type default)
 		)
 		(uuid "a3842620-a579-4406-af58-42d19dd50b3c")
+	)
+	(wire
+		(pts
+			(xy 248.92 81.28) (xy 259.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53be81c-5424-4878-9e4e-e0a1beb567c5")
 	)
 	(wire
 		(pts
@@ -6227,6 +6257,28 @@
 			)
 		)
 	)
+	(global_label "BAT+"
+		(shape input)
+		(at 248.92 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07bb444e-815f-4d3d-91c9-c142f1cd6ef5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 73.3962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1"
 		(shape input)
 		(at 80.01 27.305 90)
@@ -6311,6 +6363,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 242.57 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e7098d2-5a65-47b1-be69-944230cd4cfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 91.1762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6427,22 +6501,22 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 218.44 101.6 180)
+		(at 234.95 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2b5dff94-6a72-40b3-a423-eff19ba3714d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5562 101.6 0)
+			(at 234.95 91.1762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6636,28 +6710,6 @@
 		(uuid "56284b9c-5cb3-42c7-b948-d28aedb1ae0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.0761 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT-"
-		(shape input)
-		(at 259.08 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61494286-f3f0-4a30-8e19-125bc4bc2453")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.1962 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,28 +6917,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 170.18 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8448cd80-48ae-4274-9de4-236ff1cbe338")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0638 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "N{slash}A1"
 		(shape input)
 		(at 218.44 78.74 180)
@@ -6997,28 +7027,6 @@
 			)
 		)
 	)
-	(global_label "BAT-"
-		(shape input)
-		(at 254 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97a230a6-fcb4-45bf-904c-a60249881075")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.1162 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX"
 		(shape input)
 		(at 168.91 95.25 180)
@@ -7120,28 +7128,6 @@
 		(uuid "c3e64161-f762-4470-b93e-b5832f8e12f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.1366 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT-"
-		(shape input)
-		(at 129.54 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cddc0ec1-2c15-41ae-9f9b-bd7f9aa730a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.6562 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,22 +7271,22 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 218.44 83.82 180)
+		(at 234.95 81.28 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e677fa7e-de95-41ed-ba0a-5d1f3f6c8c26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5562 83.82 0)
+			(at 234.95 73.3962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7394,6 +7380,68 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 307.34 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00c682ed-1e5e-4758-99dc-c1b53ad31c95")
+		(property "Reference" "HM5"
+			(at 309.88 151.2316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 309.88 153.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ncParts:MountingHole_2.2mm_M2_ISO7380_Pad_noSilk"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "HM5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 30.48 0)
 		(unit 1)
@@ -7420,7 +7468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 34.29 25.4 0)
 			(effects
 				(font
@@ -7701,7 +7749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -7769,7 +7817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 72.39 25.4 0)
 			(effects
 				(font
@@ -7965,7 +8013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 97.79 25.4 0)
 			(effects
 				(font
@@ -8033,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 85.09 60.96 0)
 			(effects
 				(font
@@ -8240,7 +8288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 46.99 25.4 0)
 			(effects
 				(font
@@ -8372,7 +8420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 72.39 49.53 0)
 			(effects
 				(font
@@ -8655,70 +8703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 189.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25a2f1c1-5054-4a64-8f8c-1334d4fbe9b2")
-		(property "Reference" "#PWR014"
-			(at 35.56 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b9972f6-2266-4589-a241-2d7e807de7e6")
-		)
-		(instances
-			(project "TPS"
-				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 72.39 42.545 0)
 		(unit 1)
@@ -8745,7 +8729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 72.39 37.465 0)
 			(effects
 				(font
@@ -8877,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 34.29 60.96 0)
 			(effects
 				(font
@@ -9141,7 +9125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -9552,7 +9536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 85.09 49.53 0)
 			(effects
 				(font
@@ -9692,7 +9676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -9941,6 +9925,68 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 307.34 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dbbf0f5-8b91-45d0-98df-05206557c6d4")
+		(property "Reference" "HM4"
+			(at 309.88 146.1516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 309.88 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ncParts:MountingHole_2.2mm_M2_ISO7380_Pad_noSilk"
+			(at 307.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "HM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 59.69 54.61 0)
 		(unit 1)
@@ -9967,7 +10013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -10147,6 +10193,68 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 307.34 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f51282a-aeca-4e54-a47f-9c4cf39698f5")
+		(property "Reference" "HM2"
+			(at 309.88 135.9916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 309.88 138.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ncParts:MountingHole_2.2mm_M2_ISO7380_Pad_noSilk"
+			(at 307.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "HM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
 		(at 102.87 33.655 90)
 		(unit 1)
@@ -10306,7 +10414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -10349,16 +10457,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 46.99 181.61 0)
+		(at 46.99 179.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "427c818b-33d0-4080-bde0-6a660b3d5df1")
 		(property "Reference" "J5"
-			(at 48.26 180.3399 0)
+			(at 48.26 180.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10475,7 @@
 			)
 		)
 		(property "Value" "FFC-0.5mm, 6p"
-			(at 48.26 182.8799 0)
+			(at 48.26 177.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10484,7 @@
 			)
 		)
 		(property "Footprint" "DreaM117er-keebLibrary:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
-			(at 46.99 181.61 0)
+			(at 46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 181.61 0)
+			(at 46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10502,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 46.99 181.61 0)
+			(at 46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,7 +10567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 59.69 25.4 0)
 			(effects
 				(font
@@ -10799,7 +10907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -10936,7 +11044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1.25u-reversible"
 			(at 85.09 72.39 0)
 			(effects
 				(font
@@ -11004,7 +11112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 46.99 37.465 0)
 			(effects
 				(font
@@ -11255,16 +11363,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 87.63 181.61 0)
+		(at 87.63 179.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "634ba471-f985-42a5-8caf-6299d35497d4")
 		(property "Reference" "J6"
-			(at 88.9 180.3399 0)
+			(at 88.9 180.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11381,7 @@
 			)
 		)
 		(property "Value" "FFC-0.5mm, 6p"
-			(at 88.9 182.8799 0)
+			(at 88.9 177.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11282,7 +11390,7 @@
 			)
 		)
 		(property "Footprint" "DreaM117er-keebLibrary:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
-			(at 87.63 181.61 0)
+			(at 87.63 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +11399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 181.61 0)
+			(at 87.63 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11408,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 87.63 181.61 0)
+			(at 87.63 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11574,6 +11682,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 254 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eafd8e9-db5a-4ade-a335-7c55093aab4e")
+		(property "Reference" "#PWR014"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dfc8c38-f5f2-4983-83d5-a1df3e43c07f")
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 46.99 77.47 0)
 		(unit 1)
@@ -11600,7 +11772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1.25u-reversible"
 			(at 46.99 72.39 0)
 			(effects
 				(font
@@ -11668,7 +11840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 59.69 37.465 0)
 			(effects
 				(font
@@ -12165,6 +12337,70 @@
 			(project "TPS"
 				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "811c3473-cad4-408d-9c12-feb55ce507ed")
+		(property "Reference" "#PWR029"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RAW"
+			(at 213.36 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b4e1fbb-e0b5-484e-a5a2-1c2a7c101cfd")
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13081,7 +13317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1.25u-reversible"
 			(at 34.29 72.39 0)
 			(effects
 				(font
@@ -13117,6 +13353,70 @@
 			(project "TPS"
 				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
 					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "981247fd-cc86-4fc0-84ee-cd4ce8fcc32d")
+		(property "Reference" "#PWR026"
+			(at 252.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63e05192-f301-4173-828d-71e49dec9759")
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13250,74 +13550,6 @@
 			(project "TPS"
 				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 72.39 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e06b1af-2e9a-4ee0-bddc-db268f79dc32")
-		(property "Reference" "K20"
-			(at 67.945 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 72.39 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5dd8d28-67ab-4872-b9bd-2fadec129031")
-		)
-		(pin "2"
-			(uuid "9e989d98-0ffd-4f3e-b7b2-1e9937448d2f")
-		)
-		(instances
-			(project "TPS"
-				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
-					(reference "K20")
 					(unit 1)
 				)
 			)
@@ -13483,7 +13715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 85.09 37.465 0)
 			(effects
 				(font
@@ -13683,7 +13915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 85.09 25.4 0)
 			(effects
 				(font
@@ -14147,7 +14379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 97.79 37.465 0)
 			(effects
 				(font
@@ -14284,7 +14516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 34.29 49.53 0)
 			(effects
 				(font
@@ -14889,7 +15121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 34.29 37.465 0)
 			(effects
 				(font
@@ -14957,7 +15189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1.25u-reversible"
 			(at 97.79 72.39 0)
 			(effects
 				(font
@@ -15365,7 +15597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 46.99 49.53 0)
 			(effects
 				(font
@@ -15407,16 +15639,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 189.23 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 307.34 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "d2ed2784-aa64-4cd1-a7a3-fb5b2693e751")
-		(property "Reference" "#PWR026"
-			(at 76.2 189.23 0)
+		(uuid "d1a3fc96-1b0d-417c-81e3-a56e1a25482d")
+		(property "Reference" "HM1"
+			(at 309.88 130.9116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 309.88 133.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ncParts:MountingHole_2.2mm_M2_ISO7380_Pad_noSilk"
+			(at 307.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15424,25 +15674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 77.47 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 189.23 0)
+		(property "Datasheet" "~"
+			(at 307.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15451,20 +15684,79 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 189.23 0)
+			(at 307.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
-			(uuid "d8a0d2cb-5ffa-45c5-9672-fa35d4e66ef0")
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "HM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 307.34 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2e1c104-273f-4997-9c93-fed9ab676ee5")
+		(property "Reference" "HM6"
+			(at 309.88 156.3116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 309.88 158.623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ncParts:MountingHole_2.2mm_M2_ISO7380_Pad_noSilk"
+			(at 307.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(instances
 			(project "TPS"
 				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
-					(reference "#PWR026")
+					(reference "HM6")
 					(unit 1)
 				)
 			)
@@ -15730,6 +16022,70 @@
 			(project "TPS"
 				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
 					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da248f33-cf2d-4d81-bcde-984bf785b1ea")
+		(property "Reference" "#PWR028"
+			(at 222.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RAW"
+			(at 213.36 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "761de061-1987-4b4c-aee2-ca97ca22a08c")
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16153,7 +16509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Hotswap_KLP12_GLP3.0_MX_Plated_1.00u_Dualside"
+		(property "Footprint" "ncSwitches:SW_hotswap_HLP_Plated_1u-reversible"
 			(at 59.69 72.39 0)
 			(effects
 				(font
@@ -16189,6 +16545,68 @@
 			(project "TPS"
 				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
 					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 307.34 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9de2e41-e855-4d9d-b717-8eebaad9c9d1")
+		(property "Reference" "HM3"
+			(at 309.88 141.0716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 309.88 143.383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ncParts:MountingHole_2.2mm_M2_ISO7380_Pad_noSilk"
+			(at 307.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TPS"
+				(path "/362e52b9-ba3a-40a2-a3a5-9227c3d95473"
+					(reference "HM3")
 					(unit 1)
 				)
 			)

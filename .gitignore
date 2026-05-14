@@ -1,1 +1,76 @@
-*.log
+# ------------------ 0. Genearl ------------------
+/3d_wip/
+_temp/
+_backup/
+*-backups/  
+
+# ------------------ 1. ELECTRONICS (KiCad) ------------------
+# Backups, autosaves, and lock files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*.lck
+*.log 
+
+# Local workspace view settings and cache
+*.kicad_prl
+fp-info-cache
+
+# JLCPCB plugin file
+*jlcpcb/
+
+
+
+# ------------------ 2. MECHANICS (Rhino 3D & General CAD) ------------------
+# --- Rhino 3D & Grasshopper ---
+# Ignore autosaves, backups, and active lock files
+*.3dmbak
+*Autosave*.3dm
+*.rhl
+*Autosave*.gh
+*.gh.bak
+ 
+# --- Fusion 360 ---
+# Ignore local temporary backups and crash recovery files
+*.backup
+*.crash
+*.lck
+
+# --- General 3D Printing / Slicers ---
+# Ignore G-code (this belongs in outputs/ if needed, but not in Git)
+*.gcode
+
+
+# ------------------ 3. FIRMWARE (QMK / ZMK) ------------------
+# Compiled binaries and build directories
+*.hex
+*.bin
+*.uf2
+.build/
+build/
+obj_*/
+
+# ------------------ 4. MANUFACTURING OUTPUTS ------------------
+# Completely ignore the staging ground for generated files.
+# These will be handled by GitHub Releases!
+/outputs/
+
+# Ignore local Interactive HTML BOM plugin outputs 
+# (if generated inside the pcb folder)
+/bom/
+/InteractiveHtmlBom/
+
+# ------------------ 5. OS & SCRIPTING ENVIRONMENT  ------------------
+# Windows/macOS clutter
+.DS_Store
+Thumbs.db
+
+# Python caches (if you write scripts for matrix generation or optimization)
+__pycache__/
+*.pyc
+venv/
+.venv/
